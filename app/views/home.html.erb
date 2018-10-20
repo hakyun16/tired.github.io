@@ -1,0 +1,43 @@
+<!--그림 부분 html-->
+
+<p class = "picture">
+    <img class="first" src = "/assets/<%=@res%>.png" style= "width : 100px; height : 100px;"></img>
+    <img class="first" src = "/assets/<%=@res1%>.png" style= "width : 100px; height : 100px;"></img>
+    <img class="first" src = "/assets/<%=@res2%>.png" style= "width : 100px; height : 100px;"></img>
+</p>
+
+<br>
+
+<!--글자 부분 html-->
+
+<p class="sentence">
+    <span class="first"><%=@sen%></span>
+    <span class="second"><%=@sen1%></span>
+    <span class="third"><%=@sen2%></span>
+</p>
+
+<!--css style-->
+
+<style>
+    .picture{
+        text-align :center;
+        margin: 100px; auto
+    }
+    
+    .sentence{
+        text-align: center;
+        margin: 0px auto;
+    }
+    
+    .first{
+       margin: 0px 100px;
+    }
+    
+    .second{
+       margin: 0px 100px;
+    }
+    
+    .third{
+       margin: 0px 100px;
+    }
+</style>
