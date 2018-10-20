@@ -30,57 +30,57 @@ class HomeController < ApplicationController
     #첫 번째 문장을 결정
 
     if sen == [1]
-      sen = "하루 밤 새기"
+      sen = "똑똑함 조금"
       @sen = sen
     elsif sen == [2]
-      sen = "이틀 밤 새기"
+      sen = "잘생김 쪼오금"
       @sen = sen
     elsif sen == [3]
-      sen = "삼일 밤 새기"
+      sen = "팔길이 조그.. 우워어엉"
       @sen = sen
     elsif sen == [4]
-      sen = "사일 밤 새기"
+      sen = "밤샘과제 듬뿍"
       @sen = sen    
     else
-      sen = "맨날 밤 새기"
+      sen = "똘기 뭔지 모르지만 넣고"
       @sen = sen
     end
   
     #두 번째 문장을 결정
 
     if sen1 == [1]
-      sen1 = "하루 밤 새기"
+      sen1 = "똑똑함 조금"
       @sen1 = sen1
     elsif sen1 == [2]
-      sen1 = "이틀 밤 새기"
+      sen1 = "잘생김 쪼오금"
       @sen1 = sen1
     elsif sen1 == [3]
-      sen1 = "삼일 밤 새기"
+      sen1 = "팔길이 조그.. 우워어엉"
       @sen1 = sen1
     elsif sen1 == [4]
-      sen1 = "사일 밤 새기"
+      sen1 = "밤샘과제 듬뿍"
       @sen1 = sen1    
     else
-      sen1 = "맨날 밤 새기"
+      sen1 = "똘기 뭔지 모르지만 넣고"
       @sen1 = sen1
     end
     
     #세 번째 문장을 결정
     
     if sen2 == [1]
-      sen2 = "하룻밤 새기"
+      sen2 = "똑똑함 조금"
       @sen2 = sen2
     elsif sen2 == [2]
-      sen2 = "이틀 밤 새기"
+      sen2 = "잘생김 쪼오금"
       @sen2 = sen2
     elsif sen2 == [3]
-      sen2 = "삼일 밤 새기"
+      sen2 = "팔 길이 조그.. 우왁"
       @sen2 = sen2
     elsif sen2 == [4]
-      sen2 = "사일 밤 새기"
+      sen2 = "밤샘과제 듬뿍"
       @sen2 = sen2    
     else
-      sen2 = "맨날 밤 새기"
+      sen2 = "똘기? 모르지만 넣고"
       @sen2 = sen2
     end
     
